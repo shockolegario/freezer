@@ -1,0 +1,449 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.contenedor {
+  width: 300px;
+  height: 210px;
+  margin-left: 100px;
+  margin-top: 100px;
+  transition: width 2s ease-in , heigth 2s ease-in;
+}
+
+.oreja {
+  width: 40px;
+  height: 60px;
+  margin-top: 100px;
+  margin-left: 10px;
+  background-color: #DBDED7;
+  border-top-left-radius: 25%;
+  border-top-right-radius: 25%;
+  border-bottom-left-radius: 40%;
+  border-bottom-right-radius: 40%;
+  box-shadow: 0px 0px 5px #909090,
+              0px 0px 15px #909090;
+  position: absolute;
+}
+
+.oreja2 {
+  width: 40px;
+  height: 60px;
+  margin-top: 100px;
+  margin-left: 250px;
+  background-color: #DBDED7;
+  border-top-left-radius: 25%;
+  border-top-right-radius: 25%;
+  border-bottom-left-radius: 40%;
+  border-bottom-right-radius: 40%;
+  box-shadow: 0px 0px 5px #909090,
+              0px 0px 15px #909090;
+  position: absolute;
+}
+
+.cabeza {
+  width: 250px;
+  height: 200px;
+  margin-left: 25px;
+  background-color: #DBDED7;
+  border-top-left-radius: 25%;
+  border-top-right-radius: 25%;
+  border-bottom-left-radius: 40%;
+  border-bottom-right-radius: 40%;
+  box-shadow: 0px 0px 5px #909090,
+              0px 0px 15px #909090;
+  position: absolute;
+}
+
+.parte-morada {
+  width: 220px;
+  height: 68px;
+  margin-top: -2px;
+  margin-left: 40px;
+  background-color: #B15B88;
+  border-top-left-radius: 35%;
+  border-top-right-radius: 35%;
+  border-bottom-left-radius: 40%;
+  border-bottom-right-radius: 40%;
+  position: absolute;
+}
+
+.parte-morada2 {
+  width: 160px;
+  height: 90px;
+  margin-left: 70px;
+  background-color: #B15B88;
+  border-top-left-radius: 40%;
+  border-top-right-radius: 40%;
+  border-bottom-left-radius: 40%;
+  border-bottom-right-radius: 40%;
+  position: absolute;
+}
+
+.parte-morada3 {
+  width: 70px;
+  height: 45px;
+  margin-left: 34px;
+  margin-top: 11px;
+  background-color: #B15B88;
+  border-top-left-radius: 40%;
+  border-top-right-radius: 40%;
+  border-bottom-left-radius: 40%;
+  border-bottom-right-radius: 40%;
+  position: absolute;
+}
+
+.oculta {
+  width: 45px;
+  height: 45px;
+  margin-left: 29px;
+  margin-top: 48px;
+  background-color: #DBDED7;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  position: absolute;
+}
+
+.oculta2 {
+  width: 45px;
+  height: 45px;
+  margin-left: 26px;
+  margin-top: 41px;
+  background-color: #DBDED7;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  position: absolute;
+}
+
+.oculta3 {
+  width: 40px;
+  height: 40px;
+  margin-left: 26px;
+  margin-top: 36px;
+  background-color: #DBDED7;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  position: absolute;
+}
+
+.oculta4 {
+  width: 30px;
+  height: 30px;
+  margin-left: 29px;
+  margin-top: 33px;
+  background-color: #DBDED7;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  position: absolute;
+}
+
+.oculta5 {
+  width: 25px;
+  height: 25px;
+  margin-left: 28px;
+  margin-top: 29px;
+  background-color: #DBDED7;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  position: absolute;
+}
+
+.oculta6 {
+  width: 19px;
+  height: 19px;
+  margin-left: 29px;
+  margin-top: 25px;
+  background-color: #DBDED7;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  position: absolute;
+}
+
+.oculta7 {
+  width: 45px;
+  height: 45px;
+  margin-left: 226px;
+  margin-top: 48px;
+  background-color: #DBDED7;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  position: absolute;
+}
+
+.oculta8 {
+  width: 45px;
+  height: 45px;
+  margin-left: 230px;
+  margin-top: 41px;
+  background-color: #DBDED7;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  position: absolute;
+}
+
+.oculta9 {
+  width: 40px;
+  height: 40px;
+  margin-left: 235px;
+  margin-top: 36px;
+  background-color: #DBDED7;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  position: absolute;
+}
+
+.oculta10 {
+  width: 30px;
+  height: 30px;
+  margin-left: 240px;
+  margin-top: 33px;
+  background-color: #DBDED7;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  position: absolute;
+}
+
+.oculta11 {
+  width: 25px;
+  height: 25px;
+  margin-left: 245px;
+  margin-top: 29px;
+  background-color: #DBDED7;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  position: absolute;
+}
+
+.oculta12 {
+  width: 19px;
+  height: 19px;
+  margin-left: 250px;
+  margin-top: 25px;
+  background-color: #DBDED7;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  position: absolute;
+}
+
+.oculta13 {
+  width: 13px;
+  height: 15px;
+  margin-left: 255px;
+  margin-top: 22px;
+  background-color: #DBDED7;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  position: absolute;
+}
+
+.ojo {
+  background-color: black;
+  width: 45px;
+  height: 45px;
+  margin-top: 90px;
+  margin-left: 55px;
+  border-radius: 50%;
+  position: absolute;
+  animation-name: ojos;
+  animation-duration: 2s;
+  animation-timing-function: ease-in;
+  animation-delay: 0s;
+  animation-iteration-count: 2;
+  animation-play-state: play;
+}
+
+.ojo-centro {
+  background: radial-gradient(closest-side, white, black);
+  width: 17px;
+  height: 17px;
+  margin-top: 95px;
+  margin-left: 75px;
+  border-radius: 50%;
+  position: absolute;
+  animation-name: ojos-centro;
+  animation-duration: 2s;
+  animation-timing-function: ease-in;
+  animation-delay: 0s;
+  animation-iteration-count: 2;
+  animation-play-state: play;
+  transition: width 1s ease-in-out, height 1s ease-in-out;
+}
+
+.ojo2 {
+  background-color: black;
+  width: 45px;
+  height: 45px;
+  margin-top: 90px;
+  margin-left: 200px;
+  border-radius: 50%;
+  position: absolute;
+  animation-name: ojos;
+  animation-duration: 2s;
+  animation-timing-function: ease-in;
+  animation-delay: 0s;
+  animation-iteration-count: 2;
+  animation-play-state: play;
+}
+
+.ojo-centro2 {
+  background: radial-gradient(closest-side, white, black);
+  width: 17px;
+  height: 17px;
+  margin-top: 95px;
+  margin-left: 222px;
+  border-radius: 50%;
+  position: absolute;
+  animation-name: ojos-centro;
+  animation-duration: 2s;
+  animation-timing-function: ease-in;
+  animation-delay: 0s;
+  animation-iteration-count: 2;
+  animation-play-state: play;
+  transition: width 1s ease-in-out, height 1s ease-in-out;
+}
+
+.nariz {
+	width: 0;
+	height: 0;
+	border-left: 13px solid transparent;
+	border-right: 13px solid transparent;
+	border-bottom: 22px solid #B6B7B2;
+  margin-top: 140px;
+  margin-left: 143px;
+  position: absolute;
+}
+
+
+.lagrima {
+  width: 15px;
+  height: 53px;
+  margin-left: 65px;
+  margin-top: 133px;
+  background-color: black;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  transform: skewX(5deg);
+  position: absolute;
+  animation-name: lagrimas;
+  animation-duration: 2s;
+  animation-timing-function: ease-in;
+  animation-delay: 0s;
+  animation-iteration-count: 2;
+  animation-play-state: play;
+}
+
+.oculta-lagrima {
+  width: 15px;
+  height: 53px;
+  margin-left: 67px;
+  margin-top: 135px;
+  background-color: #DBDED7;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  transform: skewX(5deg);
+  position: absolute;
+}
+
+.lagrima2 {
+  width: 15px;
+  height: 53px;
+  margin-left: 218px;
+  margin-top: 133px;
+  background-color: black;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  transform: skewX(-5deg);
+  position: absolute;
+  animation-name: lagrimas;
+  animation-duration: 2s;
+  animation-timing-function: ease-in;
+  animation-delay: 0s;
+  animation-iteration-count: 2;
+  animation-play-state: play;
+}
+
+.oculta-lagrima2 {
+  width: 15px;
+  height: 53px;
+  margin-left: 216px;
+  margin-top: 135px;
+  background-color: #DBDED7;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  transform: skewX(-5deg);
+  position: absolute;
+}
+
+/*.contenedor:hover .ojo-centro2, .contenedor:hover .ojo-centro {
+  transform: translate(-9px,5px);
+  background: radial-gradient(closest-side, white, red);
+  width: 22px;
+  height: 22px;
+}*/
+
+@keyframes ojos{
+  0% {
+    background-color: red;
+  }
+
+  100% {
+    background-color: black;
+  }
+}
+
+@keyframes ojos-centro{
+  0% {
+    background: radial-gradient(closest-side, white, red);
+    transform: translate(-10px,5px);
+    width: 22px;
+    height: 22px;
+  }
+
+  100% {
+    background: radial-gradient(closest-side, white, black);
+  }
+}
+
+@keyframes lagrimas{
+  0% {
+    background-color: red;
+  }
+
+  100% {
+    background-color: black;
+  }
+}
