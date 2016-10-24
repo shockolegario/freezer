@@ -3,12 +3,33 @@
   padding: 0;
 }
 
+body {
+  background-image: url("../img/universe.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: background-image 3s;
+}
+
+.pop {
+  width: 300px;
+  height: 500px;
+  margin-top: 10%;
+  margin-left: 25%;
+  position: absolute;
+}
+
 .contenedor {
   width: 300px;
-  height: 210px;
-  margin-left: 100px;
-  margin-top: 100px;
-  transition: width 2s ease-in , heigth 2s ease-in;
+  height: 300px;
+  margin-top: 25px;
+  transform: rotateZ(0deg);
+  animation-name: move_cabeza;
+  animation-duration: 2s;
+  animation-timing-function: ease-in;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-play-state: play;
+  transition: rotate 3s ease-in;
 }
 
 .oreja {
@@ -43,8 +64,9 @@
 
 .cabeza {
   width: 250px;
-  height: 200px;
+  height: 204px;
   margin-left: 25px;
+  margin-top: 1px;
   background-color: #DBDED7;
   border-top-left-radius: 25%;
   border-top-right-radius: 25%;
@@ -270,12 +292,6 @@
   margin-left: 55px;
   border-radius: 50%;
   position: absolute;
-  animation-name: ojos;
-  animation-duration: 2s;
-  animation-timing-function: ease-in;
-  animation-delay: 0s;
-  animation-iteration-count: 2;
-  animation-play-state: play;
 }
 
 .ojo-centro {
@@ -286,12 +302,6 @@
   margin-left: 75px;
   border-radius: 50%;
   position: absolute;
-  animation-name: ojos-centro;
-  animation-duration: 2s;
-  animation-timing-function: ease-in;
-  animation-delay: 0s;
-  animation-iteration-count: 2;
-  animation-play-state: play;
   transition: width 1s ease-in-out, height 1s ease-in-out;
 }
 
@@ -303,12 +313,6 @@
   margin-left: 200px;
   border-radius: 50%;
   position: absolute;
-  animation-name: ojos;
-  animation-duration: 2s;
-  animation-timing-function: ease-in;
-  animation-delay: 0s;
-  animation-iteration-count: 2;
-  animation-play-state: play;
 }
 
 .ojo-centro2 {
@@ -319,13 +323,6 @@
   margin-left: 222px;
   border-radius: 50%;
   position: absolute;
-  animation-name: ojos-centro;
-  animation-duration: 2s;
-  animation-timing-function: ease-in;
-  animation-delay: 0s;
-  animation-iteration-count: 2;
-  animation-play-state: play;
-  transition: width 1s ease-in-out, height 1s ease-in-out;
 }
 
 .nariz {
@@ -352,12 +349,6 @@
   border-bottom-right-radius: 50%;
   transform: skewX(5deg);
   position: absolute;
-  animation-name: lagrimas;
-  animation-duration: 2s;
-  animation-timing-function: ease-in;
-  animation-delay: 0s;
-  animation-iteration-count: 2;
-  animation-play-state: play;
 }
 
 .oculta-lagrima {
@@ -386,12 +377,6 @@
   border-bottom-right-radius: 50%;
   transform: skewX(-5deg);
   position: absolute;
-  animation-name: lagrimas;
-  animation-duration: 2s;
-  animation-timing-function: ease-in;
-  animation-delay: 0s;
-  animation-iteration-count: 2;
-  animation-play-state: play;
 }
 
 .oculta-lagrima2 {
@@ -408,12 +393,205 @@
   position: absolute;
 }
 
-/*.contenedor:hover .ojo-centro2, .contenedor:hover .ojo-centro {
-  transform: translate(-9px,5px);
-  background: radial-gradient(closest-side, white, red);
-  width: 22px;
-  height: 22px;
-}*/
+.cuerpo {
+  width: 300px;
+  height: 453px;
+  position: absolute;
+  animation-name: walk;
+  animation-duration: 2s;
+  animation-timing-function: ease-in;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;;
+  animation-play-state: play;
+  transition: rotate 3s ease-in;
+}
+
+.rigthB {
+  width: 350px;
+  height: 330px;
+  //border: 1px solid red;
+  margin-top: 178px;
+  margin-left: -25px;
+  position: absolute;
+}
+
+.leftB {
+  width: 350px;
+  height: 310px;
+  //border: 1px solid red;
+  margin-top: 178px;
+  margin-left: -8px;
+  position: absolute;
+
+  /*animation-name: hand_up;
+  animation-duration: 2s;
+  animation-timing-function: ease-in;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;;
+  animation-play-state: play;
+  transition: rotate 3s ease-in-out;*/
+}
+
+.rigthP {
+  width: 350px;
+  height: 350px;
+  //border: 1px solid red;
+  margin-top: 165px;
+  margin-left: -21px;
+  position: absolute;
+}
+
+.leftP {
+  width: 335px;
+  height: 350px;
+  //border: 1px solid red;
+  margin-top: 135px;
+  margin-left: -28px;
+  position: absolute;
+}
+
+.tronco {
+  width: 480px;
+  height: 500px;
+  //border: 1px solid red;
+  margin-top: 37px;
+  margin-left: -80px;
+  position: absolute;
+}
+
+.cola {
+  width: 480px;
+  height: 500px;
+  //border: 1px solid red;
+  margin-top: 68px;
+  margin-left: -47px;
+  position: absolute;
+  transform: skewY(0deg);
+  animation-name: move_cola;
+  animation-duration: 2s;
+  animation-timing-function: ease-in;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-play-state: play;
+  transition: skewY 3s ease-in;
+}
+
+.pecho {
+  width: 350px;
+  height: 280px;
+  //border: 1px solid red;
+  margin-top: 178px;
+  margin-left: -31px;
+  position: absolute;
+}
+
+.mMR {
+  width: 340px;
+  height: 340px;
+  //border: 1px solid red;
+  margin-top: 170px;
+  margin-left: -18px;
+  position: absolute;
+}
+
+.mML {
+  width: 320px;
+  height: 320px;
+  margin-top: 173px;
+  margin-left: 4px;
+  position: absolute;
+}
+
+.mBR {
+  width: 350px;
+  height: 350px;
+  margin-top: 165px;
+  margin-left: -23px;
+  position: absolute;
+}
+
+.mBL {
+  width: 350px;
+  height: 350px;
+  //border: 1px solid red;
+  margin-top: 158px;
+  margin-left: -21px;
+  position: absolute;
+}
+
+.mPR {
+  width: 350px;
+  height: 350px;
+  //border: 1px solid red;
+  margin-top: 132px;
+  margin-left: -47px;
+  position: absolute;
+}
+
+.mPL {
+  width: 350px;
+  height: 350px;
+  margin-top: 154px;
+  margin-left: 1px;
+  position: absolute;
+}
+
+.resplandor {
+  width: 360px;
+  height: 525px;
+  margin-top: 8.5%;
+  margin-left: 22.7%;
+  position: absolute;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border-bottom-left-radius: 45%;
+  border-bottom-right-radius: 45%;
+}
+
+.resplandor:hover {
+  animation-name: enciende;
+  animation-duration: 2s;
+  animation-timing-function: ease-in;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-play-state: play;
+  transition: border 3s ease-in;
+}
+
+.resplandor:active {
+  animation-name: power, fondo2;
+  animation-duration: 0.5s;
+  animation-timing-function: ease-in;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;;
+  animation-play-state: play;
+  transition: width 1s ease-in-out;
+}
+
+
+@keyframes move_cola{
+  75% {
+    transform: skewX(7deg);
+  }
+}
+
+@keyframes move_cabeza{
+  25% {
+    transform: rotateZ(3deg);
+  }
+  75% {
+    transform: rotateZ(-3deg);
+  }
+}
+
+@keyframes walk{
+  25% {
+    transform: skewX(-1.7deg);
+  }
+  75% {
+    transform: skewX(1.7deg);
+  }
+}
 
 @keyframes ojos{
   0% {
@@ -445,5 +623,42 @@
 
   100% {
     background-color: black;
+  }
+}
+
+
+@keyframes enciende{
+  50% {
+    box-shadow: 0px 0px 15px purple,
+                0px 0px 25px pink,
+                0px 0px 35px yellow;
+  }
+
+}
+
+/*@keyframes fondo2{
+  100%{
+    background-image: url("../img/universe3.gif");
+  }
+}*/
+
+@keyframes power{
+  50% {
+    box-shadow: 0px 0px 15px purple,
+                0px 0px 25px pink,
+                0px 0px 35px yellow;
+  }
+  100% {
+    box-shadow: 0px 0px 35px purple,
+                0px 0px 45px pink,
+                0px 0px 55px purple,
+                0px 0px 105px yellow;
+  }
+}
+
+@keyframes hand_up {
+  50% {
+    transform: rotateZ(-5deg);
+    transform: perspective(45deg);
   }
 }

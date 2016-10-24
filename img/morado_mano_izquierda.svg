@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 744.09448819 1052.3622047"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="morado_mano_izquierda.svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="4.4454626"
+     inkscape:cx="518.16583"
+     inkscape:cy="789.33504"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:#b15b88;fill-rule:evenodd;stroke:#b15b88;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
+       d="m 503.21236,221.07176 c 2.57095,13.5953 5.8727,26.94699 10.24178,39.94291 10.63729,13.93081 21.17055,28.04368 34.13923,37.89456 9.88073,7.61574 18.71664,13.55978 25.60443,16.38683 5.90877,2.88425 12.52607,4.88285 20.82494,4.77949 3.52547,1.47037 4.55613,-14.58034 4.4381,-20.14215 0.0314,-6.62763 -1.42098,-17.24779 -4.4381,-27.31139 -1.2338,-5.9534 -2.51517,-11.94077 -7.85203,-20.82493 -5.12088,-9.92116 -10.24177,-13.6568 -15.36265,-19.11797 -3.06245,-4.1808 -7.52085,-8.53609 -15.36266,-13.31431 -0.13073,-1.47467 -44.23381,-2.0339 -52.23304,1.70696 z"
+       id="path4137"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccccccc" />
+  </g>
+</svg>
